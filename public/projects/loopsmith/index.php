@@ -393,7 +393,7 @@
       closest, and closes the gap with a cross-dissolve.
     ') ?></p>
     <p class="hint">
-      <span id="demoflag">A sample clip is loaded below so you can see it working — drop your own over it.</span>
+      <span id="demoflag">Drop a clip to begin.</span>
       Nothing is uploaded. Decoding and encoding happen in this tab.
     </p>
   </section>
@@ -1272,8 +1272,9 @@
 
      The page used to open as an empty drop zone, which showed a visitor
      nothing about what the tool does or whether it is worth finding a
-     file for. It now opens with a real clip already analysed: a 2.5s
-     ComfyUI generation, 480px wide, VP9.
+     file for. When DEMO names a clip beside index.php, the page opens with it
+     already analysed. The clip it was tuned on was a 2.5s generated clip,
+     480px wide, VP9.
 
      38 KB, and VP9 rather than H.264 on purpose — this page's own warning
      is that Chromium builds without proprietary codecs cannot decode MP4,
