@@ -30,8 +30,8 @@ the notes below describe the clip the page was tuned on.
 ## The sample clip
 
 When a sample is present (`DEMO` set to a clip beside `index.php`) the page opens with it
-already loaded, analysed and looping. The clip the page was tuned on was a 2.5 s generated
-clip, 480 px wide, 38 KB; it is not in this repository.
+already loaded, analysed and looping. The clip the page was tuned on was a short generated
+clip; it is not in this repository.
 
 Two decisions worth keeping when you choose one:
 
@@ -45,7 +45,7 @@ Two decisions worth keeping when you choose one:
   it, the sample's results land on top of yours a second later.
 
 Pick a clip that *doesn't* loop as-is but has a plateau in it somewhere.
-The clip it was tuned on was a misty pine forest — 121 frames, 31 KB — and it was a
+The clip it was tuned on was a misty pine forest, and it was a
 good demo precisely because the before and after are both dramatic: 39.36×
 as-is, 0.01× once the dissolve lands.
 
