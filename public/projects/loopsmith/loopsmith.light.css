@@ -1,0 +1,71 @@
+/* =========================================================================
+   LIGHT THEME companion, generated from:
+     projects/loopsmith/index.php
+   Regenerate it after changing the dark styles in the page. Everything is scoped under
+   html[data-theme="light"], so this file does nothing in dark mode.
+   ========================================================================= */
+
+/* ---- from projects/loopsmith/index.php ---- */
+html[data-theme="light"]{--void:#ece7dc;--panel:#e5e0d5;--panel-2:#dfdad0;--rule:#d3cec4;--rule-hot:#9f9b92;--bone:#1d1a15;--bone-dim:#5e5a53;--bone-faint:#8a857d;--brass:#1b7468;--brass-hot:#0b5147;--brass-deep:#a9efe8;--ok:#377355;--warn:#965516;--bad:#8b2f23}
+html[data-theme="light"] body{background:var(--void)}
+html[data-theme="light"] ::selection{background:var(--brass)}
+html[data-theme="light"] button,
+html[data-theme="light"] .filebtn{background:transparent}
+html[data-theme="light"] button:hover:not(:disabled),
+html[data-theme="light"] .filebtn:hover{background:var(--brass)}
+html[data-theme="light"] button.primary{background:var(--brass)}
+html[data-theme="light"] button.primary:hover:not(:disabled){background:var(--brass-hot)}
+html[data-theme="light"] .drop.over{background:#e7e2d7}
+html[data-theme="light"] .tile{background:var(--panel)}
+html[data-theme="light"] .matrixbox{background:var(--panel)}
+html[data-theme="light"] .cands{background:var(--panel)}
+html[data-theme="light"] .cand{background:transparent}
+html[data-theme="light"] .cand:hover{background:var(--panel-2)}
+html[data-theme="light"] .cand[aria-selected="true"]{background:var(--brass-deep)}
+html[data-theme="light"] .preview{background:#f3eee3}
+html[data-theme="light"] .previewnote{background:rgba(236,231,220,0.8)}
+html[data-theme="light"] .field input,
+html[data-theme="light"] .field select{background:var(--panel-2)}
+html[data-theme="light"] .bar{background:var(--rule)}
+html[data-theme="light"] .bar i{background:var(--brass)}
+html[data-theme="light"] pre.cli{background:var(--panel)}
+html[data-theme="light"] .soundtoggle[aria-pressed="true"]{background:var(--brass)}
+html[data-theme="light"] .bars i{background:currentColor}
+html[data-theme="light"] .soundbar{background:rgba(229,224,213,0.72)}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+html[data-theme="light"] .soundbar{background:rgba(234,229,218,0.94)}
+}
+html[data-theme="light"] .wavebox{background:#f3eee3}
+html[data-theme="light"] .wavenote{background:rgba(236,231,220,0.8)}
+html[data-theme="light"] .seam{background:var(--panel)}
+html[data-theme="light"] .wavebox,
+html[data-theme="light"] .seam{background:rgba(229,224,213,0.72)}
+html[data-theme="light"] .wavebox{background:rgba(243,238,227,0.72)}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+html[data-theme="light"] .wavebox,
+html[data-theme="light"] .seam{background:rgba(234,229,218,0.94)}
+}
+html[data-theme="light"] body{background:transparent}
+html[data-theme="light"] .tile,
+html[data-theme="light"] .matrixbox,
+html[data-theme="light"] .cands,
+html[data-theme="light"] .preview,
+html[data-theme="light"] pre.cli,
+html[data-theme="light"] .field input,
+html[data-theme="light"] .field select{background:rgba(229,224,213,0.72)}
+html[data-theme="light"] .drop{background:rgba(236,231,220,0.45)}
+html[data-theme="light"] .drop.over{background:rgba(231,226,215,0.8)}
+html[data-theme="light"] .cand:hover{background:rgba(223,218,208,0.85)}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+html[data-theme="light"] .tile,
+html[data-theme="light"] .matrixbox,
+html[data-theme="light"] .cands,
+html[data-theme="light"] .preview,
+html[data-theme="light"] pre.cli,
+html[data-theme="light"] .drop{background:rgba(234,229,218,0.94)}
+}
+
+/* ===================== hand-tuned ===================== */
+/* Loopsmith never styled its plain links, so in dark they were the browser's
+   own dark-mode lavender; in light that would become default blue. */
+html[data-theme="light"] a:not([class]) { color: var(--brass); }
